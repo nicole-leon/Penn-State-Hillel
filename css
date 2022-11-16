@@ -1,0 +1,122 @@
+img {
+  width: 300px;
+}
+body {
+   color: #555;
+   font-family: Arial, Arial, Helvetica, sans-serif;
+}
+#wrapper {
+    width: 100%;
+    background-color: #032651;
+    padding-top: 30px;
+}
+nav {
+    font-size: 120%;
+    padding: 1.5em;
+    text-align: center;
+    background-color: #032651;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+main {
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 0.5fr 2.5fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.intro {
+  background-color: #D3D3D3;
+  grid-column-start: 1;
+  grid-column end: 2;
+  height: 100px;
+  padding: 5px;
+}
+ h2 {
+  text-align: center;
+  color: black;
+}
+.news {
+  background-color: #F7A79D;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 610px;
+  padding: 5px;
+}
+.grid-container-2 {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: 25px;
+}
+.news1, .news2, .news3, .news4 {
+  text-align: center;
+}
+.events {
+  background-color: #9FFCDF;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 500px;
+}
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  padding-top: 5px;
+  row-gap: 25px;
+}
+.events1, .events2, .events3, .events4, .events5, .events6 {
+  text-align: center;
+}
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    clear: both;
+    color: white;
+}
+.fa {
+  padding: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
